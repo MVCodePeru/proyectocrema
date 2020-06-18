@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FCF3CF;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.header {
+  /*background-color: rgb(54, 53, 53);*/
+  background-color: #2D2C29;
+  color: white;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu{
+  height: inherit;
+  display: inherit;
+  
+}
+.menu ul{
+  list-style: none;
+  height: inherit;
+  display: inherit;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.menu li{ 
+  height: inherit;
+  display: inherit;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+.link {
+  height: inherit;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 0 10px;
+  display: inherit;
+  align-items: center;}
+
+.hero{
+  display: flex;
+  background-color: rgb(54, 53, 53);
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+}
+.hero h1{
+  color:wheat;
+  font-size: 38px;
+  font-family: 'MuseoModerno';
+  text-transform: uppercase;
+  margin: 0;
+  height: inherit;
+}
+
+h1 strong{
+  color: rgba(255, 0, 0, 0.63);
+  margin:0;
+  padding: 0;
+}
+
+.hero-image{
+  object-fit: cover; /*sirve para q la imagen se autodimensione"*/
+  
+}
+
+  .footer{
+    height: 150px;
+    background-color: rgb(54, 53, 53);
+    color: white;
+  }
+
+  .container {
+    max-width: 1000px;
+    height: inherit;
+    display: inherit;
+    flex: 1; /*sirve para que ocupe todo el ancho */
+    margin: 0;
+    justify-content: inherit;
+    align-items: inherit ;
+    margin: 0 auto;
+  }
+
+h2 {
+  display: block;
+  color: crimson;
+}
+.aboutus {
+  display: flex;
+  border: solid 2px red;
+}
+.aboutus-description {
+  font-size: 20px;
+}
